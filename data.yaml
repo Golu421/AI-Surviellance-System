@@ -1,0 +1,13 @@
+train: C:\Users\capermint\Desktop\modeltrain/train/images
+val: C:\Users\capermint\Desktop\modeltrain/valid/images
+test: C:\Users\capermint\Desktop\modeltrain/test/images
+
+nc: 2
+names: ['knife', 'pistol']
+
+roboflow:
+  workspace: pothole-detection-fxdov
+  project: cvcs-crime-progect-2pgev
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pothole-detection-fxdov/cvcs-crime-progect-2pgev/dataset/1
